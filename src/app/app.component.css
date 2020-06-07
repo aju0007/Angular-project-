@@ -1,0 +1,73 @@
+.adjustop {
+  width: 70%;
+  float: left;
+}
+@media screen and (max-width: 600px) {
+  .adjust {
+    width: 95%;
+    float: center;
+    -webkit-box-shadow: 1px 0px 51px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 0px 51px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 0px 51px 2px rgba(0, 0, 0, 0.75);
+  }
+}
+
+.adjustope {
+  width: auto;
+  background-color: transparent;
+}
+.spa {
+  float: right;
+}
+a {
+  color: aliceblue;
+}
+
+/*navi*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.adsel {
+  width: max-content;
+}
+.te {
+  width: 115%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

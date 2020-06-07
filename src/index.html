@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>SampleProjecT</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-secondary img mat-typography">
+    <div class="container-fluid"></div>
+    <div class="topnav" id="myTopnav">
+      <img
+        src="https://d2skenm2jauoc1.cloudfront.net/assets/gloriafood/img/redesign/gloriafood-logo-84e982cb79.svg"
+        alt=""
+      />
+      <a href="http://ajusworld.my-style.in/public/404.html">Contact</a>
+      <a href="http://ajusworld.my-style.in/public/404.html">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    <div style="align-content: center;">
+      <app-root></app-root>
+    </div>
+    <footer>
+      <div class="restaurant-info">
+        <div class="locations">
+          <h4>LOCATIONS</h4>
+          <div class="location-1">
+            <h5>India<br />Bangalore, NY &#8212; 11231</h5>
+          </div>
+          <!--location-1-->
+          <div class="location-2">
+            <h5>US<br />New York, NY &#8212; 10003</h5>
+          </div>
+        </div>
+        <!--locations end-->
+
+        <div class="hours">
+          <h4>HOURS</h4>
+          <div class="weekdays">
+            <h5>
+              Monday - Thursday<br />
+              5:30pm - 10:00pm
+            </h5>
+          </div>
+          <!--weekdays end-->
+
+          <div class="weekends">
+            <h5>
+              Friday & Saturday<br />
+              5:30pm - 11:00pm
+            </h5>
+          </div>
+          <!--weekends end-->
+        </div>
+        <!--hours end-->
+      </div>
+      <!--restaurant-info end-->
+
+      <div class="copyright">
+        <p>
+          <small>Copyright 2020 &#169; <span>xyz</span> Team</small>
+        </p>
+        <p><small>Permissions and Copyright &#8226; Contact The Team</small></p>
+      </div>
+    </footer>
+  </body>
+</html>
